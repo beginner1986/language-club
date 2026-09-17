@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HQ MNC NE Language Club - Autumn/Winter 2026/2027</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .lang-pl { display: none; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- Header / Navbar -->
+    <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="font-bold text-lg tracking-wide flex items-center gap-2">
+                <span>🌐</span> HQ MNC NE Language Club
+            </div>
+            <!-- Language Switcher Button -->
+            <button onclick="toggleLanguage()" id="langBtn" class="bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold px-3 py-1.5 rounded-lg text-sm transition shadow">
+                🇵🇱 Zmień na Polski
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-b from-slate-900 to-slate-800 text-white py-12 px-4 text-center">
+        <div class="max-w-3xl mx-auto">
+            <span class="inline-block bg-amber-500/20 text-amber-300 font-medium text-xs px-3 py-1 rounded-full uppercase tracking-wider mb-4 border border-amber-500/30">
+                Autumn / Winter Semester 2026/2027
+            </span>
+            <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight mb-4 leading-tight">
+                <span class="lang-en">Enhance Your English Skills with Us!</span>
+                <span class="lang-pl">Rozwijaj swoje umiejętności językowe z nami!</span>
+            </h1>
+            <p class="text-slate-300 text-base sm:text-lg mb-8 max-w-2xl mx-auto">
+                <span class="lang-en">Join the HQ MNC NE Language Club for the upcoming semester starting <strong>October 5th, 2026</strong>. Improve your fluency in a professional and friendly environment.</span>
+                <span class="lang-pl">Dołącz do Klubu Językowego HQ MNC NE w nowym semestrze od <strong>5 października 2026 r.</strong> Podnoś swoje kwalifikacje językowe w profesjonalnym i przyjaznym środowisku.</span>
+            </p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSezrpgcUxbQCaJCP9O-UQCMb5iIeWQ_Iqv5l0AKtFY3iFPC6g/viewform?usp=dialog" target="_blank" class="inline-block bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5">
+                <span class="lang-en">👉 Fill Out the Survey & Register</span>
+                <span class="lang-pl">👉 Wypełnij ankietę i zarejestruj się</span>
+            </a>
+            <p class="text-xs text-slate-400 mt-3">
+                <span class="lang-en">Deadline: <strong>Thursday, Sept 24th, 23:59</strong></span>
+                <span class="lang-pl">Termin: <strong>czwartek, 24 września, godz. 23:59</strong></span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-4 py-10 space-y-8">
+
+        <!-- Key Information Grid -->
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                <div class="text-amber-500 text-2xl mb-2">🗓️</div>
+                <h3 class="font-bold text-slate-900 mb-1">
+                    <span class="lang-en">Schedule & Dates</span>
+                    <span class="lang-pl">Terminy i grafik</span>
+                </h3>
+                <p class="text-sm text-slate-600">
+                    <span class="lang-en">Classes run from <strong>Oct 5, 2026 to Feb 2027</strong>. Held once a week, Monday through Wednesday.</span>
+                    <span class="lang-pl">Zajęcia od <strong>5 paź 2026 do lut 2027</strong>. Raz w tygodniu, od poniedziałku do środy.</span>
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                <div class="text-amber-500 text-2xl mb-2">👥</div>
+                <h3 class="font-bold text-slate-900 mb-1">
+                    <span class="lang-en">Levels & Groups</span>
+                    <span class="lang-pl">Poziomy i grupy</span>
+                </h3>
+                <p class="text-sm text-slate-600">
+                    <span class="lang-en">From <strong>Beginner to Advanced</strong>. Small groups coordinated via dedicated WhatsApp chats.</span>
+                    <span class="lang-pl">Od <strong>Beginnera do Advanced</strong>. Kameralne grupy z koordynatorami na WhatsApp.</span>
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                <div class="text-amber-500 text-2xl mb-2">💳</div>
+                <h3 class="font-bold text-slate-900 mb-1">
+                    <span class="lang-en">Semester Fee</span>
+                    <span class="lang-pl">Opłata semestralna</span>
+                </h3>
+                <p class="text-sm text-slate-600">
+                    <span class="lang-en">Mandatory fee calculated based on total headcount. <strong>Capped at max 300 PLN</strong> per semester.</span>
+                    <span class="lang-pl">Obowiązkowa opłata zależna od liczby chętnych. <strong>Maksymalnie 300 zł</strong> za semestr.</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- Detailed Information / FAQ -->
+        <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 space-y-6">
+            <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-100 pb-3">
+                <span class="lang-en">Important Information</span>
+                <span class="lang-pl">Ważne informacje</span>
+            </h2>
+
+            <div class="space-y-4 text-slate-700 leading-relaxed text-sm sm:text-base">
+                <div>
+                    <h4 class="font-semibold text-slate-900">
+                        <span class="lang-en">⭐ Priority for Continuing Members</span>
+                        <span class="lang-pl">⭐ Pierwszeństwo dla kontynuujących naukę</span>
+                    </h4>
+                    <p>
+                        <span class="lang-en">Continuing students have priority when selecting group time slots. Additional groups may be created if there is high demand.</span>
+                        <span class="lang-pl">Osoby kontynuujące naukę mają pierwszeństwo w wyborze grup. W przypadku dużej liczby chętnych utworzymy dodatkowe grupy.</span>
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold text-slate-900">
+                        <span class="lang-en">👨‍👩‍👧‍👦 Who Can Join?</span>
+                        <span class="lang-pl">👨‍👩‍👧‍👦 Dla kogo są zajęcia?</span>
+                    </h4>
+                    <p>
+                        <span class="lang-en">All military and civilian personnel at HQ MNC NE, supporting units, and family members (BB) are welcome!</span>
+                        <span class="lang-pl">Zapraszamy cały personel wojskowy i cywilny HQ MNC NE, jednostek wspierających oraz rodziny (BB)!</span>
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold text-slate-900">
+                        <span class="lang-en">💻 Online Attendance Requirements</span>
+                        <span class="lang-pl">💻 Wymagania dla osób online</span>
+                    </h4>
+                    <p>
+                        <span class="lang-en">Participants attending online classes are kindly requested to keep their webcams turned on for interactive learning.</span>
+                        <span class="lang-pl">Osoby uczestniczące w zajęciach online proszone są o włączanie kamer w celu poprawy interakcji z nauczycielem.</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Banner -->
+        <section class="bg-amber-500 text-slate-950 p-8 rounded-2xl shadow-md text-center">
+            <h3 class="text-2xl font-extrabold mb-2">
+                <span class="lang-en">Ready to Join Us?</span>
+                <span class="lang-pl">Gotowy, aby dołączyć?</span>
+            </h3>
+            <p class="mb-6 text-slate-900 font-medium">
+                <span class="lang-en">Declaration deadline: Thursday, September 24th, 2026 (23:59)</span>
+                <span class="lang-pl">Termin składania deklaracji: czwartek, 24 września 2026 r. (23:59)</span>
+            </p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSezrpgcUxbQCaJCP9O-UQCMb5iIeWQ_Iqv5l0AKtFY3iFPC6g/viewform?usp=dialog" target="_blank" class="inline-block bg-slate-900 hover:bg-slate-800 text-white font-bold px-8 py-3.5 rounded-xl shadow transition">
+                <span class="lang-en">Open Declaration Form 🔗</span>
+                <span class="lang-pl">Otwórz formularz zgłoszeniowy 🔗</span>
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 px-4 border-t border-slate-800 text-xs text-center space-y-3">
+        <p><strong>HQ MNC NE Language Club</strong> | Contact: <strong>Adam Emieljaniuk</strong> (Language Club Leader)</p>
+        <p class="max-w-2xl mx-auto text-slate-500">
+            <span class="lang-en"><strong>GDPR Notice:</strong> Personal data is processed solely for language club organization and shared only with members, teachers, and HQ MNC NE as required.</span>
+            <span class="lang-pl"><strong>Klauzula RODO:</strong> Dane osobowe przetwarzane są wyłącznie na potrzeby organizacji klubu językowego i udostępniane tylko członkom, lektorowi oraz HQ MNC NE.</span>
+        </p>
+    </footer>
+
+    <!-- Language Switcher Script -->
+    <script>
+        let currentLang = 'en';
+
+        function toggleLanguage() {
+            const enElements = document.querySelectorAll('.lang-en');
+            const plElements = document.querySelectorAll('.lang-pl');
+            const btn = document.getElementById('langBtn');
+
+            if (currentLang === 'en') {
+                enElements.forEach(el => el.style.display = 'none');
+                plElements.forEach(el => el.style.display = 'inline-block');
+                btn.innerText = '🇬🇧 Switch to English';
+                currentLang = 'pl';
+            } else {
+                plElements.forEach(el => el.style.display = 'none');
+                enElements.forEach(el => el.style.display = 'inline-block');
+                btn.innerText = '🇵🇱 Zmień na Polski';
+                currentLang = 'en';
+            }
+        }
+    </script>
+</body>
+</html>
